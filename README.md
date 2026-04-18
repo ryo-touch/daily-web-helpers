@@ -1,5 +1,9 @@
-# URL-Specific-JS-Executor
-任意のページを開いたとき、指定したjavascriptを実行するGoogle Chrome拡張機能です
+# Daily Web Helpers
+日々のウェブ作業を便利にする Chrome 拡張機能集。特定の URL に対して JavaScript / CSS を注入します。
+
+現在搭載している機能:
+- **Google Meet 録画自動化** — 録画パネルで「文字起こし」「Gemini ノート」のチェックボックスを自動 ON（詳細: [GoogleMeetTranscriptionEnabler_README.md](./GoogleMeetTranscriptionEnabler_README.md)）
+- **Google 検索結果の順位表示** — SERP の各検索結果タイトルに順位番号を表示
 
 ## 使用方法
 - ファイルをダウンロードする

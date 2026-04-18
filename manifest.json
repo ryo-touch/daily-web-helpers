@@ -1,22 +1,19 @@
 {
   "manifest_version": 3,
-  "name": "Execute JavaScript on Specific URLs",
+  "name": "Daily Web Helpers",
   "author": "ryo-touch",
   "version": "1.1",
-  "description": "Executes specific JavaScripts when specific URLs are visited.",
+  "description": "Convenience tweaks injected into specific URLs (Google Meet, Google Search, etc.).",
   "permissions": [
     "activeTab",
     "scripting"
   ],
-  "background": {
-    "service_worker": "background.js"
-  },
   "content_scripts": [
     {
       "matches": ["*://meet.google.com/*"],
       "js": ["googleMeetAutoRecord.js"]
-    }
-    ,{
+    },
+    {
       "matches": [
         "*://www.google.com/search*",
         "*://www.google.co.jp/search*"
@@ -25,7 +22,6 @@
     }
   ],
   "action": {
-    "default_popup": "popup.html",
     "default_icon": {
       "16": "icons/icon16.png",
       "48": "icons/icon48.png",

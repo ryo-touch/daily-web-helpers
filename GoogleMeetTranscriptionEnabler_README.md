@@ -23,7 +23,7 @@ Google Meetは「Add-onsを使うことを推奨」していますが、**Add-on
 ## 必要条件
 
 - Google Meetで録画を開始できる権限（会議のオーナーまたは管理者）
-- [URL-Specific-JS-Executor](https://github.com/ryo-touch/URL-Specific-JS-Executor) Chrome拡張機能
+- [Daily Web Helpers](https://github.com/ryo-touch/daily-web-helpers) Chrome拡張機能
 
 ## 使い方
 
