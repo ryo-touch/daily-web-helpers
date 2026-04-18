@@ -17,7 +17,8 @@
 - `google_rank.css` — Google 検索結果に順位番号を CSS counter で表示
 - `icons/` — 拡張アイコン（16/48/128px）
 - `README.md` — 拡張全体の概要と機能一覧
-- `GoogleMeetTranscriptionEnabler_README.md` — Meet 自動化機能の詳細マニュアル
+- `googleMeetAutoRecord_README.md` — Meet 自動化機能の詳細マニュアル
+- `LICENSE` — MIT License
 
 ## 新しい URL 向けスクリプトを追加するとき
 

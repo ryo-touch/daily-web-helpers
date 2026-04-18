@@ -1,6 +1,6 @@
-# Google Meet Transcription Enabler
+# Google Meet Auto-Record
 
-Google Meetの録画パネルで「文字起こしも開始」と「Geminiによるメモ作成も開始する」のチェックボックスを自動的にチェックするChrome拡張スクリプトです。
+Google Meet の録画パネルで「文字起こしも開始」と「Gemini によるメモ作成も開始する」のチェックボックスを自動的にチェックする Chrome 拡張スクリプトです（[Daily Web Helpers](./README.md) に含まれる機能の一つ）。
 
 ## 機能
 
@@ -78,7 +78,7 @@ Google Meetは「Add-onsを使うことを推奨」していますが、**Add-on
    - `[Google Meet Auto-Record] Found 0 checkbox(es)` の場合、Google MeetのUI構造が変更された可能性があります
 
 3. **拡張機能が有効か確認**
-   - `chrome://extensions/` で「URL-Specific-JS-Executor」が有効になっているか確認
+   - `chrome://extensions/` で「Daily Web Helpers」が有効になっているか確認
    - ページをリロード（F5）
 
 ### タイムアウトメッセージが表示される
@@ -148,7 +148,7 @@ A: いいえ。あなたのブラウザでのみ動作します。
 
 ## ライセンス
 
-MIT License
+MIT License（[LICENSE](./LICENSE) を参照）
 
 ## 関連リンク
 - [Google Meet API](https://developers.google.com/workspace/meet/api/guides/overview) - API制限の説明
